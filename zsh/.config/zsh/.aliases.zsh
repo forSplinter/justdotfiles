@@ -1,0 +1,7 @@
+alias v='nvim'
+alias py='python'
+alias nodev='node -v'
+alias npmv='npm -v'
+alias k='killall'
+alias c='clear'
+alias ls='ls --color'
