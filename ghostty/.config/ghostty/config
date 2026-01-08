@@ -1,0 +1,27 @@
+#font ghostty +list-fonts
+font-family = "Hack Nerd Font Mono"
+font-family-bold = "Hack Nerd Font Mono Bold"
+font-family-italic="Hack Nerd Font Mono Italic"
+font-size = 14
+
+#you don't really need this adjustment i just don't like the look to pack
+adjust-cell-width = 2
+adjust-cell-height = 8%
+adjust-font-baseline = 1
+adjust-cursor-thickness = 10%
+adjust-box-thickness = 10%
+
+
+#Theme you can easly list all the theme you need with ghostty +list-theme
+#window
+theme = dark:Builtin Solarized Dark, light:Builtin Solarized Light
+background-blur = true
+background-opacity = 0.8
+
+#Shell integration generally it's automatic
+#shell
+shell-integration = zsh 
+
+#keybind
+keybind = super+r=reload_config
+

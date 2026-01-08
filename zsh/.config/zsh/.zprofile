@@ -18,3 +18,6 @@ export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
 export PYENV_ROOT="$HOME/.pyenv"
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/zsh/starship.toml"
 
+
+# Created by `pipx` on 2026-01-03 16:20:24
+export PATH="$PATH:/Users/forsplinter/.local/bin"

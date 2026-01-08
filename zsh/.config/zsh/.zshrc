@@ -52,3 +52,6 @@ eval "$(starship init zsh)"
 
 [ -f "$ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh" ] && source "$ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
 [ -f "$ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ] && source "$ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
+# Created by `pipx` on 2026-01-03 16:20:24
+export PATH="$PATH:/Users/forsplinter/.local/bin"
