@@ -14,6 +14,13 @@ path=(
    /opt/homebrew/opt/openjdk@17/bin
    $path
 )
+
+#postgres libpq (macopt)
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
+
 export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
 export PYENV_ROOT="$HOME/.pyenv"
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/zsh/starship.toml"
