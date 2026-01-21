@@ -21,6 +21,9 @@ export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
 
+#GCP lib binary for macos
+export PATH=/opt/homebrew/share/google-cloud-sdk/bin:$PATH"
+
 export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
 export PYENV_ROOT="$HOME/.pyenv"
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/zsh/starship.toml"
